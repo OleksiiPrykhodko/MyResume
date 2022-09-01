@@ -1,0 +1,38 @@
+body {
+    font-family: "Arial";
+  }
+
+.bg-shirt{
+    background-color: #002060;
+}
+
+.text-shirt{
+    color: #002060;
+}
+
+.border-shirt{
+    border-color: #002060 !important;
+}
+
+.personal-data-font-resiging{
+    font-size: calc(13px + 6 * ((100vw - 992px) / (1530 - 992)));
+}
+
+@media (max-width:1199px){
+    .personal-data-font-resiging{
+        font-size: calc(20px + 6 * ((100vw - 1199px) / (1530 - 1199)));
+    }
+}
+
+@media (max-width:991px){
+    .personal-data-font-resiging{
+        font-size: calc(12px + 9 * ((100vw - 576px) / (991 - 576)));
+    }
+}
+
+@media (max-width:575px){
+    .personal-data-font-resiging{
+        font-size: 13px;
+        font-size: calc(13px + 5 * ((100vw - 375px) / (575 - 375)));
+    }
+}
